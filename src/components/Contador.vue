@@ -18,8 +18,6 @@
    </script>
    
    <style scoped>
-   p {
-     color: aqua;
-   }
+  
    </style>
    
