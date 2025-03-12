@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>La temperatura actual de la zona es: <Tempe/> </h1>
+        {{ mensajeRecibido }}<Tempe/>
     </div>
     <!-- <div>pokemon <Poke/></div> -->
 </template>
@@ -8,6 +8,13 @@
 <script setup>
 import Tempe from '../components/Weather.vue'
 // import Poke from '../components/Pokemon.vue'
+import { defineProps, ref, watch } from 'vue';
+
+const props = defineProps(['mensaje']);
+const mensajeRecibido = ref(props.mensaje);
+watch(() =>props.mensaje,(newValue)=>{
+    mensajeRecibido.value = newValue;
+} );
 </script>
 
 <style scoped>

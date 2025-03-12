@@ -1,6 +1,6 @@
 <template>
-    {{ weatherStore.temperatura }}
-        
+    
+    <h1>La temperatura actual de la zona es:  {{ weatherStore.temperatura }} °C</h1>
     
 </template>
 

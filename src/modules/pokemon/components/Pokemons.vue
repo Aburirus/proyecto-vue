@@ -1,5 +1,5 @@
 <template>
-    get API
+    Habilidad de ditto: 
     {{ pokemonStore.nombre }}
 </template>
 
