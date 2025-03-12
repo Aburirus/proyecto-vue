@@ -14,6 +14,9 @@
                 <li>
                     <router-link to="/registro">Registro</router-link>
                 </li>
+                <li>
+                    <router-link to="/pokemon">Pokemon</router-link>
+                </li>
             </ul>
         </div>
     </div>

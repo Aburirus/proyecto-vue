@@ -22,7 +22,12 @@ const router = createRouter({
     path: '/registro',
     name: 'registro',
     component: () => import('../modules/registro/views/RegistroView.vue')
-  }
+  },
+  {
+    path: '/pokemon',
+    name: 'pokemon',
+    component: () => import('../modules/pokemon/components/Pokemons.vue')
+  },
   ]
 })
 

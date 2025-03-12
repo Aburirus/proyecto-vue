@@ -2,16 +2,18 @@
     <div class="header">
         <h1>La temperatura actual de la zona es: <Tempe/> </h1>
     </div>
+    <!-- <div>pokemon <Poke/></div> -->
 </template>
 
 <script setup>
 import Tempe from '../components/Weather.vue'
+// import Poke from '../components/Pokemon.vue'
 </script>
 
 <style scoped>
     .header{
         display: flex;
-        justify-content: end;
+        /* justify-content: center;  */
         align-items:   center;
         padding: 10px 20px;
         position: fixed;
