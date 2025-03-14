@@ -28,6 +28,11 @@ const router = createRouter({
     name: 'pokemon',
     component: () => import('../modules/pokemon/components/Pokemons.vue')
   },
+  {
+    path: '/calcular',
+    name: 'calcular',
+    component: () => import('../modules/calcular/views/CalcularView.vue')
+  },
   ]
 })
 
